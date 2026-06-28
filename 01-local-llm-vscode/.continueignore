@@ -1,0 +1,15 @@
+# Continue indexer exclusion template
+# Place this file in the root of your workspace project to prevent 100% CPU lockups.
+
+.git/
+node_modules/
+dist/
+build/
+.svelte-kit/
+.next/
+out/
+bin/
+obj/
+*.log
+*.zip
+*.tar.gz

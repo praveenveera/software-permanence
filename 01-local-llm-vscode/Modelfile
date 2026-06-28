@@ -1,0 +1,10 @@
+# Modelfile template to build custom local models in Ollama (e.g. Gemma-4-12B QAT with 32k context)
+
+# 1. Provide absolute path to your downloaded GGUF file
+FROM /Users/praveenveera/SharedModels/lmstudio-community/gemma-4-12B-it-QAT-GGUF/gemma-4-12B-it-QAT-Q4_0.gguf
+
+# 2. Configure system context length (e.g. 32768 tokens)
+PARAMETER num_ctx 32768
+
+# 3. (Optional) Set custom temperature parameters
+PARAMETER temperature 0.3
