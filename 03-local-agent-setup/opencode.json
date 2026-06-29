@@ -1,0 +1,7 @@
+{
+  "provider": "ollama",
+  "endpoint": "http://localhost:11434",
+  "model": "qwen2.5-coder:14b",
+  "default_agent": "builder",
+  "system_instructions_path": "./.agents/instructions.md"
+}
