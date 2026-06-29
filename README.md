@@ -7,6 +7,18 @@ Subscribe to the newsletter for deep-dives into running open weights, building m
 
 ---
 
+## 📅 Publication Status Tracker
+
+This table tracks the publication status of each article across platforms and links to their companion configurations:
+
+| Topic / Title | Companion Code | Substack | Dev.to | Medium | Hashnode |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **01. Stop Paying for Copilot** | [`01-local-llm-vscode/`](./01-local-llm-vscode/) | 📝 Draft | 📝 Draft | 📝 Draft | [📝 Draft (Preview)](https://praveen-builds.hashnode.dev/preview/6a41ed198ead0237e96ce3a7) |
+| **02. Why Local Coding Agents Fail** | *(Pending)* | 📝 Draft | 📝 Draft | 📝 Draft | 📝 Draft |
+| **03. Local AI for Enterprise Developers** | *(Pending)* | 📝 Draft | 📝 Draft | 📝 Draft | 📝 Draft |
+
+---
+
 ## 📂 Repository Contents
 
 ### [01-local-llm-vscode](./01-local-llm-vscode/)
