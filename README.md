@@ -77,5 +77,5 @@ cat error.log | ollama run qwen2.5-coder:14b "Explain this error"
 ## ✍️ Authorship
 Created by **Praveen Veera** — Enterprise AI Architect & Platform Builder.
 *   **LinkedIn:** [linkedin.com/in/praveenveera](https://linkedin.com/in/praveenveera)
-*   **Dev.to:** [dev.to/praveenveera](https://dev.to/praveenveera)
+*   **Dev.to:** [dev.to/praveen_builds](https://dev.to/praveen_builds)
 *   **Instagram:** [@praveen.builds](https://instagram.com/praveen.builds)
