@@ -206,7 +206,7 @@ Local agent failure is a systems alignment problem, not just a model capabilitie
 **Hi, I'm Praveen Veera.** I build practical AI systems, specializing in Enterprise AI Platforms, Local LLMs, and Dev Tools.
 
 Read my notes:
-*   **Substack Newsletter:** [softwarepermanence.substack.com](https://softwarepermanence.substack.com)
+*   **Substack Newsletter:** [praveenbuilds.substack.com](https://praveenbuilds.substack.com)
 *   **LinkedIn:** [linkedin.com/in/praveen-veera-6ab22567](https://www.linkedin.com/in/praveen-veera-6ab22567/)
 *   **GitHub (Companion Code):** [github.com/praveenveera/software-permanence](https://github.com/praveenveera/software-permanence)
 *   **Dev.to:** [dev.to/praveen_builds](https://dev.to/praveen_builds)

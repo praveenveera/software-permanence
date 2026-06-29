@@ -3,7 +3,7 @@
 Welcome to the companion repository for the **Software Permanence** publication series. This repository hosts verified config templates, ignore rules, and automation scripts to help you run private, local AI developer loops on your workstation.
 
 Subscribe to the newsletter for deep-dives into running open weights, building modular workflows, and reclaiming your code privacy:
-👉 **[softwarepermanence.substack.com](https://softwarepermanence.substack.com)**
+👉 **[praveenbuilds.substack.com](https://praveenbuilds.substack.com)**
 
 ---
 
