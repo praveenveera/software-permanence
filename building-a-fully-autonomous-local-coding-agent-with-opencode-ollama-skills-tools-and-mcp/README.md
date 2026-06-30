@@ -1,8 +1,8 @@
-# Companion Code: Build a Fully Autonomous Local AI Coding Agent
+# Companion Code: How Autonomous Coding Agents Actually Work
 
 This folder contains verified configuration templates and custom workspace skills to deploy a private, local-first coding assistant using OpenCode, Ollama, and the Model Context Protocol (MCP).
 
-Detailed guide and systems evaluation: [Read the full guide on Medium](https://medium.com/@praveenveera92/building-a-fully-autonomous-local-coding-agent-with-opencode-ollama-skills-tools-and-mcp).
+Detailed guide and systems evaluation: [Read the full guide on Medium](https://medium.com/@praveenveera92/how-autonomous-coding-agents-actually-work).
 
 ## Prerequisites
 * Local system (Mac, Windows, or Linux) with Ollama installed.
@@ -11,8 +11,8 @@ Detailed guide and systems evaluation: [Read the full guide on Medium](https://m
 
 ## Subfolder Structure
 * `opencode-config.json`: Workspace configurations defining model names and local MCP server mappings.
-* `verify_exports.py`: A workspace verification skill written in Python.
-* `verify_exports.ts`: A workspace verification skill written in TypeScript.
+* `parse_exports.py`: A workspace verification skill written in Python.
+* `parse_exports.ts`: A workspace verification skill written in TypeScript.
 
 ## Quick Start
 
