@@ -22,11 +22,11 @@ Choosing a local setup is not a pure upgrade; it involves a series of engineerin
 
 | Dimension | Local Assistant (e.g., Qwen 14B / Gemma 12B) | Cloud Assistant (e.g., Claude 3.5 Sonnet / GPT-4o) |
 | --- | --- | --- |
-| **Data Privacy** | 100% Private (No data leaves your workstation) | Subject to compliance review (Data sent to third party servers) |
-| **Token Cost** | **$0 / month** (Runs entirely on local electricity) | $10–$20/mo subscription or fees based on token usage |
-| **Autocomplete Latency** | **~150ms** (Instant, zero network delay) | ~500ms - 1.2s (Depends on network stability and cloud congestion) |
-| **Offline Capability** | Yes (Works on planes, trains, or secure offline VPCs) | No (Crashes instantly without active internet connection) |
-| **Cognitive Ceiling** | **Low to Medium** (Struggles with reasoning across multiple files) | **High** (Resolves complex logic across different modules) |
+| <b>Data Privacy</b> | 100% Private (No data leaves your workstation) | Subject to compliance review (Data sent to third party servers) |
+| <b>Token Cost</b> | <b>$0 / month</b> (Runs entirely on local electricity) | $10–$20/mo subscription or fees based on token usage |
+| <b>Autocomplete Latency</b> | <b>~150ms</b> (Instant, zero network delay) | ~500ms - 1.2s (Depends on network stability and cloud congestion) |
+| <b>Offline Capability</b> | Yes (Works on planes, trains, or secure offline VPCs) | No (Crashes instantly without active internet connection) |
+| <b>Cognitive Ceiling</b> | <b>Low to Medium</b> (Struggles with reasoning across multiple files) | <b>High</b> (Resolves complex logic across different modules) |
 
 ### Where Local Models Fail
 
@@ -83,10 +83,10 @@ Here is your hardware compatibility reference sheet:
 
 | System VRAM (Kitchen Counter) | Model Parameter Size | Recommended Models | Quantization | VRAM Footprint |
 | --- | --- | --- | --- | --- |
-| **8 GB** | 1B - 3B | `qwen2.5-coder:1.5b` | `Q4_K_M` | ~1.6 GB |
-| **16 GB** | 7B - 8B | `qwen2.5-coder:7b` | `Q4_K_M` | ~4.7 GB |
-| **24 GB** | 12B - 14B | `qwen2.5-coder:14b` | `Q4_K_M` | ~9.3 GB |
-| **32 GB+** | 14B - 22B | `codestral:22b` | `Q4_K_M` | ~15.1 GB |
+| <b>8 GB</b> | 1B - 3B | `qwen2.5-coder:1.5b` | `Q4_K_M` | ~1.6 GB |
+| <b>16 GB</b> | 7B - 8B | `qwen2.5-coder:7b` | `Q4_K_M` | ~4.7 GB |
+| <b>24 GB</b> | 12B - 14B | `qwen2.5-coder:14b` | `Q4_K_M` | ~9.3 GB |
+| <b>32 GB+</b> | 14B - 22B | `codestral:22b` | `Q4_K_M` | ~15.1 GB |
 
 ### Sizing Models to Task Complexity
 
@@ -206,9 +206,9 @@ To prove local viability, we measured prompt pre-fill speeds (Time to First Toke
 
 | Model Configuration | Parameter Size | VRAM Footprint | Quantization | Context Pre-fill Speed | Token Generation Speed | Sizing Latency |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Qwen2.5-Coder (Base)** | 1.5B | 1.6 GB | `Q4_K_M` | 190.6 tok/s | **188.4 tok/s** | < 80ms (Real-time autocomplete) |
-| **Gemma 4 QAT** | 12B | 7.0 GB | `Q4_K_M` | 129.5 tok/s | **34.8 tok/s** | Real-time reasoning |
-| **Qwen2.5-Coder (Instruct)** | 14B | 9.0 GB | `Q4_K_M` | 214.8 tok/s | **30.0 tok/s** | Cloud-parity chat speed |
+| <b>Qwen2.5-Coder (Base)</b> | 1.5B | 1.6 GB | `Q4_K_M` | 190.6 tok/s | <b>188.4 tok/s</b> | < 80ms (Real-time autocomplete) |
+| <b>Gemma 4 QAT</b> | 12B | 7.0 GB | `Q4_K_M` | 129.5 tok/s | <b>34.8 tok/s</b> | Real-time reasoning |
+| <b>Qwen2.5-Coder (Instruct)</b> | 14B | 9.0 GB | `Q4_K_M` | 214.8 tok/s | <b>30.0 tok/s</b> | Cloud-parity chat speed |
 
 #### Benchmark Test Script & Code Reference
 The benchmark tests were executed locally using the companion test script. The full source code is hosted in the companion repository:

@@ -16,6 +16,7 @@ This table tracks the publication status of each article across platforms and li
 | **01. Stop Paying for Copilot** | [`01-local-llm-vscode/`](./01-local-llm-vscode/) | 📝 Draft | 📝 Draft | 📝 Draft | [📝 Draft (Preview)](https://praveen-builds.hashnode.dev/preview/6a41ed198ead0237e96ce3a7) |
 | **02. Why Local Coding Agents Fail** | *(Pending)* | 📝 Draft | 📝 Draft | 📝 Draft | 📝 Draft |
 | **03. Local AI for Enterprise Developers** | *(Pending)* | 📝 Draft | 📝 Draft | 📝 Draft | 📝 Draft |
+| **04. Build an Autonomous Local Agent** | [`building-a-fully-autonomous-local-coding-agent-with-opencode-ollama-skills-tools-and-mcp/`](./building-a-fully-autonomous-local-coding-agent-with-opencode-ollama-skills-tools-and-mcp/) | 📝 Draft | 📝 Draft | 📝 Draft | 📝 Draft |
 
 ---
 
@@ -26,6 +27,14 @@ Configuration templates to replace GitHub Copilot with local Ollama models in VS
 *   `config.json`: Router configurations separating autocomplete (`qwen2.5-coder:1.5b-base`) from chat reasoning (`qwen2.5-coder:14b-instruct`).
 *   `.continueignore`: Pre-configured directory exclusion templates to prevent 100% CPU loops from workspace indexers.
 *   `Modelfile`: Ollama create template to build custom models with extended context windows (e.g., Gemma 4 12B QAT with 32k context).
+
+### [building-a-fully-autonomous-local-coding-agent-with-opencode-ollama-skills-tools-and-mcp](./building-a-fully-autonomous-local-coding-agent-with-opencode-ollama-skills-tools-and-mcp/)
+Verified configurations and workspace skills to deploy a private, local-first coding assistant using OpenCode, Ollama, and MCP:
+*   `opencode-config.json`: Configuration template linking OpenCode to local Ollama ports and filesystem MCP servers.
+*   `verify_exports.py`: A Python verification script mapping out file exports.
+*   `verify_exports.ts`: A TypeScript parallel implementation of the verification script.
+
+
 
 ---
 

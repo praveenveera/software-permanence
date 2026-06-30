@@ -150,13 +150,13 @@ Giving an agent system access introduces risks. You must categorize available to
 
 | Tool | Purpose | Risk Level | Safety Guideline |
 | :--- | :--- | :--- | :--- |
-| **Read Files** | Inspects code structures and configuration. | Low | Safe to execute automatically. |
-| **Search Repo** | Locates variable definitions and file locations. | Low | Safe to execute automatically. |
-| **Git Diff/Status** | Analyzes workspace changes. | Low | Safe to execute automatically. |
-| **Run Tests** | Executes unit tests to validate code. | Medium | Restrict execution duration to prevent infinite loops. |
-| **Modify Files** | Edits source code or templates. | Medium | Require manual review or run inside a Git sandbox. |
-| **Delete Files** | Cleans up obsolete components. | High | Always prompt for explicit human confirmation. |
-| **Shell Commands** | Runs compiler commands, builds, or scripts. | High | Never automate; require step-by-step developer approval. |
+| <b>Read Files</b> | Inspects code structures and configuration. | Low | Safe to execute automatically. |
+| <b>Search Repo</b> | Locates variable definitions and file locations. | Low | Safe to execute automatically. |
+| <b>Git Diff/Status</b> | Analyzes workspace changes. | Low | Safe to execute automatically. |
+| <b>Run Tests</b> | Executes unit tests to validate code. | Medium | Restrict execution duration to prevent infinite loops. |
+| <b>Modify Files</b> | Edits source code or templates. | Medium | Require manual review or run inside a Git sandbox. |
+| <b>Delete Files</b> | Cleans up obsolete components. | High | Always prompt for explicit human confirmation. |
+| <b>Shell Commands</b> | Runs compiler commands, builds, or scripts. | High | Never automate; require step-by-step developer approval. |
 
 > 🛡️ **The Git Sandbox Rule:** Always initialize a Git repository and commit your active changes before letting a local agent write code. If the agent goes rogue, deletes files, or writes buggy code, you can roll back your entire workspace instantly by running:
 > ```bash

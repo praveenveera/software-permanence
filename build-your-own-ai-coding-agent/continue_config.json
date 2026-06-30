@@ -1,0 +1,14 @@
+{
+  "models": [
+    {
+      "title": "Qwen 2.5 Coder 14B Chat",
+      "provider": "ollama",
+      "model": "qwen2.5-coder:14b-instruct"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen 2.5 Coder 1.5B Autocomplete",
+    "provider": "ollama",
+    "model": "qwen2.5-coder:1.5b-base"
+  }
+}

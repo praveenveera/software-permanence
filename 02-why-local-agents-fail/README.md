@@ -79,11 +79,11 @@ Here is how tool-calling reliability scales across different quantization format
 
 | Model & Precision | Quantization Type | JSON Tool Success Rate | XML Tag Success Rate | Workstation Speed |
 | :--- | :--- | :--- | :--- | :--- |
-| **Qwen 2.5 Coder 7B (Q4_K_M)** | PTQ | 48% | 82% | ~75 tok/s |
-| **Gemma 4 12B (Q4_K_M)** | PTQ | 52% | 84% | ~32 tok/s |
-| **Gemma 4 12B (Q4_K_M)** | **QAT** | **92%** | **98%** | ~32 tok/s |
-| **Qwen 2.5 Coder 14B (Q4_K_M)** | PTQ | 74% | 96% | ~30 tok/s |
-| **Qwen 2.5 Coder 14B (Q8_0)** | PTQ | **89%** | **98%** | ~24 tok/s |
+| <b>Qwen 2.5 Coder 7B (Q4_K_M)</b> | PTQ | 48% | 82% | ~75 tok/s |
+| <b>Gemma 4 12B (Q4_K_M)</b> | PTQ | 52% | 84% | ~32 tok/s |
+| <b>Gemma 4 12B (Q4_K_M)</b> | <b>QAT</b> | <b>92%</b> | <b>98%</b> | ~32 tok/s |
+| <b>Qwen 2.5 Coder 14B (Q4_K_M)</b> | PTQ | 74% | 96% | ~30 tok/s |
+| <b>Qwen 2.5 Coder 14B (Q8_0)</b> | PTQ | <b>89%</b> | <b>98%</b> | ~24 tok/s |
 
 ---
 

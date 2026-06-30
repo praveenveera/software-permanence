@@ -1,0 +1,14 @@
+{
+  "model": "qwen2.5-coder:14b",
+  "temperature": 0.1,
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/absolute/path/to/your/project"
+      ]
+    }
+  }
+}
